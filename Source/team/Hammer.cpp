@@ -29,14 +29,5 @@ void AHammer::Tick(float DeltaTime)
 void AHammer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	//----------------------------
-	// 移動
-	//----------------------------
-	// MoveForwardの入力値をMoveForward関数へバインドする
-	InputComponent->BindAxis("MoveForward", this, &AHammer::MoveForward);
-
-	// MoveRightの入力値をMoveRight関数へバインドする
-	InputComponent->BindAxis("MoveRight", this, &AHammer::MoveRight);
 }
 
