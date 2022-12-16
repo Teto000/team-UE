@@ -15,18 +15,6 @@
 	],
 	"Plugins": [
 		{
-<<<<<<< HEAD
-			"Name": "OculusVR",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Android"
-			]
-		},
-		{
-=======
->>>>>>> dc9167a1e51afacad5d45940b7ed71b4650ced07
 			"Name": "SteamVR",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
@@ -34,8 +22,6 @@
 				"Win64",
 				"Linux"
 			]
-<<<<<<< HEAD
-=======
 		},
 		{
 			"Name": "OculusVR",
@@ -45,7 +31,6 @@
 				"Win64",
 				"Android"
 			]
->>>>>>> dc9167a1e51afacad5d45940b7ed71b4650ced07
 		}
 	]
 }
